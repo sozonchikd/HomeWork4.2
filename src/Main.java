@@ -21,5 +21,20 @@ public class Main {
         else if (humanAge <7) {
             System.out.println("Не проходит критерии");
         }
+
+        System.out.println("Задание 3");
+
+        int passengers = 17;
+        int wagonCapacity = 102;
+        int sitPlaces = 60;
+        if (passengers > wagonCapacity) {
+            System.out.println("Вагон переполнен");
+        }
+        else if (passengers > sitPlaces) {
+            System.out.println("Есть стоячие места");
+        }
+        else if (passengers < sitPlaces) {
+            System.out.println("Есть сидячие места");
+        }
     }
 }
